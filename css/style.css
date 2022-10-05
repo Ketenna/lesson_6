@@ -23,11 +23,10 @@ body {
     margin-bottom: 84px;
 }
 
-
-/* .logo_header {
+.logo_header {
     position: relative;
     left: -26px;
-} */
+}
 
 .navigation a {
     font-size: 17px;
@@ -372,6 +371,18 @@ h1 {
     font-size: 24px;
     padding: 26px 0 27px 19px;
     margin-bottom: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.name:focus,
+.email:focus {
+    outline: none;
+}
+
+.name:focus::placeholder,
+.email:focus::placeholder {
+    opacity: 0;
 }
 
 .submit {
@@ -382,7 +393,8 @@ h1 {
     font-weight: 700;
     font-size: 15px;
     text-align: center;
-    padding-top: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
 }
 
 .section_6 {
